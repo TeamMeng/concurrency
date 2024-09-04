@@ -18,8 +18,8 @@ fn main() -> Result<()> {
     }
 
     loop {
-        thread::sleep(Duration::from_secs(5));
-        println!("{:?}", metrics.snapshot());
+        thread::sleep(Duration::from_secs(2));
+        println!("{}", metrics);
     }
 }
 
